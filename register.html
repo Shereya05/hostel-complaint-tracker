@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Student Registration</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <h2>Student Registration</h2>
+  <form action="actions/register.php" method="POST">
+    <label>Name:</label><br>
+    <input type="text" name="name" required><br><br>
+
+    <label>Email:</label><br>
+    <input type="email" name="email" required><br><br>
+
+    <label>Password:</label><br>
+    <input type="password" name="password" required><br><br>
+
+    <input type="submit" value="Register">
+  </form>
+
+  <!-- 🔁 Replace this part: -->
+  <!-- <p>Already have an account? <a href="index.html">Login here</a></p> -->
+
+  <!-- ✅ With this: -->
+  <div class="switch-link">
+    Already have an account? <a href="index.html">Login here</a>
+  </div>
+
+</body>
+</html>
+
